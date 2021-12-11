@@ -6,6 +6,8 @@ Twitter:
 
 Discord:
   - IncludeReplyToUser: true
+    IncludeRetweet: true
+    IncludeUserReply: true
     keyword_sets:
      - - 'fork'
        - 'tomb'
