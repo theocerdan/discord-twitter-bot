@@ -5,7 +5,8 @@ Twitter:
   consumer_secret: 'm2TB4CdqH7jO2bRkidtAlHqNvOqbmrRThCG4HRcAp9ILJouYLY'
 
 Discord:
-  - keyword_sets:
+  - IncludeReplyToUser: true
+    keyword_sets:
      - - 'fork'
        - 'tomb'
      - - 'forks'
