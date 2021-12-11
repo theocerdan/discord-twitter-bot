@@ -1,41 +1,11 @@
-######################################
-#### manual configuration example: ###
-#Twitter:
-#  access_token: XXX-XXX
-#  access_token_secret: XXX
-#  consumer_key: XXX
-#  consumer_secret: XXX
-#
-#Discord:
-#  - IncludeReplyToUser: false
-#    IncludeRetweet: false
-#    IncludeUserReply: true
-#    custom_message: 'A new tweet!'
-#    keyword_sets:
-#    - - 'League'    # tweet will be posted if tweet contains all 3 words {League of Legends}, no particular order.
-#      - 'of'
-#      - 'Legends'
-#    - - 'Dota 2'    # tweet will be posted if tweet contains 'Dota 2' in this specific order
-#    - - 'MOBA'      # tweet will be posted if it contains 'MOBA'
-#    twitter_ids:
-#    - '123'         # define as many as you want with a dash {-} at the beginning
-#    - '456'
-#    twitter_handles:
-#    - 'discordapp'
-#    twitter_lists:
-#    - 'https://twitter.com/rokxx/lists/dota-2'
-#    webhook_urls:
-#    - 'https://discordapp.com/api/webhooks/123456/XXXX-XXXX'
-######################################
-
 Twitter:
-   access_token: ${ACCESS_TOKEN}
-   access_token_secret: ${ACCESS_TOKEN_SECRET}
-   consumer_key: ${CONSUMER_KEY}
-   consumer_secret: ${CONSUMER_SECRET}
+  access_token: '4704095618-TFFO6NutEYXQKQVhyZ4n1KWQ5bzzV6WmStIKVkm'
+  access_token_secret: 'Ojuvnd03S90q18iiBQsy2x48Ybh2UtmyHIcw0LMqN0tmp'
+  consumer_key: 'hDb0prUCcJivdIOPvRx8Q0MFa'
+  consumer_secret: 'OiqhU0gDoz53NOn3eFnxLC6OBtTEEDwdtPBkOZrj0bKBH4CbWD'
 
 Discord:
- - track:
-    - 'python'
-   webhook_urls:
-    - 'https://discord.com/api/webhooks/919239791718060083/EhGawowLTPG6KF7KA5rQC0y6ovlXNplZCJmCwmVhyCuIyWmECVhCL_7ZuAr9dP7tBMf5'
+  - track:
+     - 'python'
+    webhook_urls:
+     - 'https://discord.com/api/webhooks/919239791718060083/EhGawowLTPG6KF7KA5rQC0y6ovlXNplZCJmCwmVhyCuIyWmECVhCL_7ZuAr9dP7tBMf5'
