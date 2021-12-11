@@ -6,6 +6,6 @@ Twitter:
 
 Discord:
   - track:
-     - 'python'
+     - 'fork+tomb,forks+tomb'
     webhook_urls:
      - 'https://discord.com/api/webhooks/919239791718060083/EhGawowLTPG6KF7KA5rQC0y6ovlXNplZCJmCwmVhyCuIyWmECVhCL_7ZuAr9dP7tBMf5'
